@@ -268,6 +268,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "VOLTV1:MB85RS64V"
 			(pin_names
 				(offset 1.016)
@@ -1203,6 +1330,12 @@
 		(uuid "970802b4-e5e8-4142-b941-15a61b988785")
 	)
 	(junction
+		(at 176.53 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b91e736d-f615-493c-8451-15499b4de88a")
+	)
+	(junction
 		(at 113.03 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1219,6 +1352,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1171bde-8305-4a36-ae1e-28d1b357ece4")
+	)
+	(junction
+		(at 176.53 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef9f5edc-0c08-4430-a155-ec93bf032a5f")
 	)
 	(no_connect
 		(at 78.74 72.39)
@@ -1274,13 +1413,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 59.69) (xy 186.69 59.69)
+			(xy 157.48 59.69) (xy 176.53 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a14773e-5b92-46c3-acd7-e63943715cf5")
+	)
+	(wire
+		(pts
+			(xy 172.72 67.31) (xy 172.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b50963c-2351-4bf5-9872-ff7635a39b25")
 	)
 	(wire
 		(pts
@@ -1321,6 +1470,26 @@
 			(type default)
 		)
 		(uuid "22206f2a-ce87-4a49-bb74-379c0ffb6e8f")
+	)
+	(wire
+		(pts
+			(xy 176.53 59.69) (xy 176.53 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27448397-0176-4639-8c7b-63489650a71e")
+	)
+	(wire
+		(pts
+			(xy 167.64 67.31) (xy 172.72 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f3633a-7b88-4279-ab7e-b12b8a678db4")
 	)
 	(wire
 		(pts
@@ -1381,6 +1550,26 @@
 			(type default)
 		)
 		(uuid "548b0fc9-ef3b-4a17-b32f-e75f89f312ee")
+	)
+	(wire
+		(pts
+			(xy 176.53 71.12) (xy 177.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c05193d-f3ec-48d8-bc94-8d2271e4ff2e")
+	)
+	(wire
+		(pts
+			(xy 176.53 59.69) (xy 186.69 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee43813-972c-4e76-b123-e4f177066e23")
 	)
 	(wire
 		(pts
@@ -1534,6 +1723,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 71.12) (xy 176.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64bf467-765b-4b5e-b246-b8fccbed97e9")
+	)
+	(wire
+		(pts
 			(xy 168.91 81.28) (xy 168.91 78.74)
 		)
 		(stroke
@@ -1551,6 +1750,16 @@
 			(type default)
 		)
 		(uuid "c8571420-558b-4971-a983-f58ba65bc4b9")
+	)
+	(wire
+		(pts
+			(xy 176.53 67.31) (xy 176.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10a759b-9c77-4bf6-b8de-4fa4c2c6b899")
 	)
 	(wire
 		(pts
@@ -1619,7 +1828,7 @@
 	)
 	(hierarchical_label "FRAM CS"
 		(shape input)
-		(at 177.8 71.12 180)
+		(at 167.64 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1967,6 +2176,81 @@
 			(project "VoltV1"
 				(path "/4dc02877-6404-4472-a9f6-00d826e215ba/f67f1027-daba-493a-8bee-d229304ca6b6"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 176.53 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7677e671-040f-48e4-a381-b07291918911")
+		(property "Reference" "R31"
+			(at 172.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 172.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 176.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25077"
+			(at 176.53 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fec606bd-8c8e-44a3-ba53-e7c2f355458d")
+		)
+		(pin "2"
+			(uuid "27d6b342-d769-466c-9161-10a3e401dfbf")
+		)
+		(instances
+			(project "VoltV1"
+				(path "/4dc02877-6404-4472-a9f6-00d826e215ba/f67f1027-daba-493a-8bee-d229304ca6b6"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2346,7 +2630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ramxeed.com/assets/images/products/datasheet/FeRAM/s4/MB85RS64V-DS6v1-E.pdf"
 			(at 190.5 76.2 0)
 			(effects
 				(font

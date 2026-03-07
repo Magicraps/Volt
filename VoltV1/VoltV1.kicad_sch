@@ -6,7 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Volt")
+		(date "2026-03-05")
 		(rev "V1")
+		(company "Riley Post")
 	)
 	(lib_symbols)
 	(text "NULI-Avionics PCBs"
@@ -62,6 +64,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 46.99) (xy 64.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04332f2d-a295-4780-944d-b610f84b07a9")
+	)
+	(wire
+		(pts
 			(xy 109.22 162.56) (xy 127 162.56)
 		)
 		(stroke
@@ -99,6 +111,16 @@
 			(type default)
 		)
 		(uuid "13923eae-002c-4cef-9556-2b89b5db272a")
+	)
+	(wire
+		(pts
+			(xy 62.23 44.45) (xy 62.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b56e201-e372-4fb1-85e8-0feca67fc454")
 	)
 	(wire
 		(pts
@@ -372,6 +394,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 27.94) (xy 127 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6860c13a-3d71-4744-9c72-c6340a712893")
+	)
+	(wire
+		(pts
 			(xy 172.72 153.67) (xy 207.01 153.67)
 		)
 		(stroke
@@ -582,6 +614,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 44.45) (xy 62.23 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2050426-3c95-4b3d-be07-4b4308677ccb")
+	)
+	(wire
+		(pts
 			(xy 172.72 64.77) (xy 208.28 64.77)
 		)
 		(stroke
@@ -762,6 +804,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 30.48) (xy 127 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf391503-eac2-48aa-8fae-7835b51bcc42")
+	)
+	(wire
+		(pts
 			(xy 107.95 77.47) (xy 127 77.47)
 		)
 		(stroke
@@ -779,6 +831,16 @@
 			(type default)
 		)
 		(uuid "d54a0f5d-1469-46cc-9734-67d24c968399")
+	)
+	(wire
+		(pts
+			(xy 172.72 128.27) (xy 207.01 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e6cc59-b5e9-42cd-874c-4d8bef6e134e")
 	)
 	(wire
 		(pts
@@ -802,6 +864,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 64.77) (xy 69.85 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa43ef1-97d0-4101-8f7e-48ef1474eb88")
+	)
+	(wire
+		(pts
 			(xy 172.72 138.43) (xy 207.01 138.43)
 		)
 		(stroke
@@ -819,6 +891,16 @@
 			(type default)
 		)
 		(uuid "e349f7bf-80fa-45f8-b154-ed434e8f4a97")
+	)
+	(wire
+		(pts
+			(xy 172.72 130.81) (xy 207.01 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecdc710c-37c4-4847-a46e-dd690603cd3f")
 	)
 	(wire
 		(pts
@@ -840,9 +922,29 @@
 		)
 		(uuid "f3dd555b-ed32-42d1-bf35-f67f33796f56")
 	)
+	(wire
+		(pts
+			(xy 64.77 46.99) (xy 64.77 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76753d8-6de1-4bea-9160-5f2dcd03e6dd")
+	)
+	(wire
+		(pts
+			(xy 62.23 67.31) (xy 69.85 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5a486f-d264-4085-a0f7-062f86810b85")
+	)
 	(sheet
-		(at 207.01 115.57)
-		(size 38.1 45.72)
+		(at 207.01 124.46)
+		(size 38.1 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -857,7 +959,7 @@
 		)
 		(uuid "5d004403-37db-43c2-86f8-735d7f372e83")
 		(property "Sheetname" "sensors"
-			(at 207.01 114.8584 0)
+			(at 207.01 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -977,6 +1079,26 @@
 		(pin "Sck1" input
 			(at 207.01 156.21 180)
 			(uuid "53e28fad-8053-4408-819c-bfb61b84c4da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ICM20948 CS" input
+			(at 207.01 130.81 180)
+			(uuid "edaaee94-fdbc-4969-a78a-61d52746a1d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ICM Int1" input
+			(at 207.01 128.27 180)
+			(uuid "ced64925-47fe-4536-8e5e-edbfdf704b10")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,6 +1320,46 @@
 				(justify left top)
 			)
 		)
+		(pin "Daughter 3.3V" input
+			(at 71.12 46.99 180)
+			(uuid "8100c008-5e90-4a32-bb8f-2b113d748f48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Daughter 5V" input
+			(at 71.12 44.45 180)
+			(uuid "8ea3aadf-02e5-4242-b9b8-d3c88ece0109")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBD+" input
+			(at 109.22 27.94 0)
+			(uuid "10fdfa8f-0228-4830-9e04-cfa0d4940140")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBD-" input
+			(at 109.22 30.48 0)
+			(uuid "3b5c15e2-2097-4fe6-a8d2-1192956a531a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "VoltV1"
 				(path "/4dc02877-6404-4472-a9f6-00d826e215ba"
@@ -1391,7 +1553,7 @@
 			)
 		)
 		(pin "GPIOspare0" input
-			(at 127 41.91 180)
+			(at 127 95.25 180)
 			(uuid "bbd6f83b-2f24-4ec5-835a-a7a1405da8a8")
 			(effects
 				(font
@@ -1401,7 +1563,7 @@
 			)
 		)
 		(pin "GPIOspare1" input
-			(at 127 39.37 180)
+			(at 127 97.79 180)
 			(uuid "06875bc9-64bd-45e0-a04e-7277a36ede1b")
 			(effects
 				(font
@@ -1411,7 +1573,7 @@
 			)
 		)
 		(pin "GPIOspare2" input
-			(at 127 36.83 180)
+			(at 127 100.33 180)
 			(uuid "466ce745-373d-494d-ade1-691d3bd1cc8b")
 			(effects
 				(font
@@ -2000,6 +2162,26 @@
 				(justify left)
 			)
 		)
+		(pin "ICM20948 CS" input
+			(at 172.72 130.81 0)
+			(uuid "733f7cb5-b245-4a29-bc1c-1b9e1e1e30ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ICM Int1" input
+			(at 172.72 128.27 0)
+			(uuid "1f4450fd-3d55-49b0-9e0a-d8d6cf9928e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "VoltV1"
 				(path "/4dc02877-6404-4472-a9f6-00d826e215ba"
@@ -2402,6 +2584,36 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "Daughter 3.3V" input
+			(at 69.85 64.77 180)
+			(uuid "c06dac6b-aaee-4a49-b847-f86944276874")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Daughter 5V" input
+			(at 69.85 67.31 180)
+			(uuid "0a396328-9b28-45c3-81fd-45bd209f18c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Daughter Battery" input
+			(at 69.85 69.85 180)
+			(uuid "29c8fa2e-3151-4602-a34e-215a6211e26b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

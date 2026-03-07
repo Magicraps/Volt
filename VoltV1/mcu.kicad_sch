@@ -4601,16 +4601,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 171.45) (xy 67.31 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0feba2a-aba3-4607-8ab4-348e9b8ca761")
-	)
-	(wire
-		(pts
 			(xy 104.14 29.21) (xy 82.55 29.21)
 		)
 		(stroke
@@ -4930,7 +4920,7 @@
 		(uuid "ae2baa92-cf8f-4860-8460-ea197ec8f499")
 	)
 	(label "VDDIO3.3"
-		(at 67.31 171.45 0)
+		(at 57.15 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5306,6 +5296,17 @@
 			(justify left)
 		)
 		(uuid "5d7a3105-cc75-43b2-a45f-e1bf1b140d1e")
+	)
+	(hierarchical_label "ICM20948 CS"
+		(shape input)
+		(at 154.94 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5db8fc27-7c05-4ada-9706-45e4a92cdf76")
 	)
 	(hierarchical_label "LED"
 		(shape input)
@@ -5725,6 +5726,17 @@
 		)
 		(uuid "e2840e26-6786-444c-81e5-ad39e9261807")
 	)
+	(hierarchical_label "Barro1 CS"
+		(shape input)
+		(at 154.94 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3f067a5-b129-40a7-b91c-c776b1e7506f")
+	)
 	(hierarchical_label "Tx1"
 		(shape input)
 		(at 257.81 105.41 0)
@@ -5813,16 +5825,16 @@
 		)
 		(uuid "f7f4c282-115e-483d-ba1d-e94a4209da17")
 	)
-	(hierarchical_label "Barro1 CS"
+	(hierarchical_label "ICM Int1"
 		(shape input)
-		(at 257.81 44.45 0)
+		(at 154.94 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "fbb4b689-e7b0-4441-9d31-4ce185a2ccfb")
+		(uuid "fa76fed3-9d65-43af-831f-7cdab00889ae")
 	)
 	(hierarchical_label "GPIOspare2"
 		(shape input)

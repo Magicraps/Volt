@@ -2291,6 +2291,12 @@
 		(uuid "9a5568b6-9984-4651-8663-2957ad49ceac")
 	)
 	(junction
+		(at 170.18 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e836c8e-8024-4292-ae95-cdf2117f771a")
+	)
+	(junction
 		(at 186.69 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2502,6 +2508,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 63.5) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d626673-fb61-4561-ac8c-278291d345ec")
+	)
+	(wire
+		(pts
 			(xy 248.92 83.82) (xy 248.92 86.36)
 		)
 		(stroke
@@ -2579,6 +2595,16 @@
 			(type default)
 		)
 		(uuid "719dd855-c2d7-46ef-aed6-9c4e541ba144")
+	)
+	(wire
+		(pts
+			(xy 170.18 78.74) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72bcd701-483d-42d6-b082-730a69525d47")
 	)
 	(wire
 		(pts
@@ -2832,6 +2858,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 83.82) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d388693e-581d-4cda-acd3-934e35ce31de")
+	)
+	(wire
+		(pts
 			(xy 222.25 96.52) (xy 222.25 99.06)
 		)
 		(stroke
@@ -2859,6 +2895,16 @@
 			(type default)
 		)
 		(uuid "ea1d5a7f-0505-43aa-beb0-2ecee6eee5af")
+	)
+	(wire
+		(pts
+			(xy 170.18 83.82) (xy 186.69 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa60278-255a-4ab0-885a-44e0d4d955ff")
 	)
 	(wire
 		(pts
@@ -2902,7 +2948,7 @@
 	)
 	(hierarchical_label "CS Radio"
 		(shape input)
-		(at 186.69 83.82 180)
+		(at 163.83 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4646,6 +4692,69 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 170.18 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfed0c01-9eb2-4c75-801e-e2ed8e470d19")
+		(property "Reference" "#PWR025"
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.5483 59.1756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01da55ca-d12f-4a13-840e-675c8deabfd2")
+		)
+		(instances
+			(project "VoltV1"
+				(path "/4dc02877-6404-4472-a9f6-00d826e215ba/c4a60ef4-4a9e-46a3-8362-ab2012feb48c"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 48.26 71.12 270)
 		(unit 1)
@@ -4715,6 +4824,81 @@
 			(project "VoltV1"
 				(path "/4dc02877-6404-4472-a9f6-00d826e215ba/c4a60ef4-4a9e-46a3-8362-ab2012feb48c"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 170.18 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4367f60-6522-4397-a184-60008f22a2ea")
+		(property "Reference" "R26"
+			(at 167.64 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 165.1 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25077"
+			(at 170.18 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "017d6876-9ff7-494f-b445-4fcf5614a841")
+		)
+		(pin "2"
+			(uuid "56c24879-348a-4d43-b7a2-a11fcc4876e6")
+		)
+		(instances
+			(project "VoltV1"
+				(path "/4dc02877-6404-4472-a9f6-00d826e215ba/c4a60ef4-4a9e-46a3-8362-ab2012feb48c"
+					(reference "R26")
 					(unit 1)
 				)
 			)

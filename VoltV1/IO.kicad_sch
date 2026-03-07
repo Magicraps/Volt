@@ -1365,7 +1365,7 @@
 	)
 	(text "(3.3-2.85)/(2mA/1000)\n=225 ohnm min"
 		(exclude_from_sim no)
-		(at 59.436 88.9 0)
+		(at 70.866 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1480,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 85.09) (xy 76.2 82.55)
+			(xy 87.63 85.09) (xy 87.63 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1500,7 +1500,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 102.87) (xy 76.2 101.6)
+			(xy 87.63 102.87) (xy 87.63 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1560,7 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 92.71) (xy 76.2 93.98)
+			(xy 87.63 92.71) (xy 87.63 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1630,7 +1630,7 @@
 	)
 	(hierarchical_label "LEDio"
 		(shape input)
-		(at 76.2 82.55 90)
+		(at 87.63 82.55 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1721,7 +1721,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 88.9 0)
+		(at 87.63 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1729,7 +1729,7 @@
 		(dnp no)
 		(uuid "0f58e459-3d89-4275-b883-1219d5c4b5f3")
 		(property "Reference" "R18"
-			(at 77.47 87.63 0)
+			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +1738,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 78.74 91.44 0)
+			(at 90.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1747,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.422 88.9 90)
+			(at 85.852 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 88.9 0)
+			(at 87.63 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1765,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 88.9 0)
+			(at 87.63 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +1790,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 76.2 97.79 90)
+		(at 87.63 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1799,7 +1799,7 @@
 		(fields_autoplaced yes)
 		(uuid "21d8d315-04f3-47ea-a774-a3b2597f1821")
 		(property "Reference" "D1"
-			(at 69.85 99.3775 0)
+			(at 81.28 99.3775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +1807,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 72.39 99.3775 0)
+			(at 83.82 99.3775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,7 +1815,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 76.2 97.79 0)
+			(at 87.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 97.79 0)
+			(at 87.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +1833,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 76.2 97.79 0)
+			(at 87.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +2049,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 102.87 0)
+		(at 87.63 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2058,7 +2058,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c36e7db-9ba1-4908-ade0-9473c415c4c7")
 		(property "Reference" "#PWR042"
-			(at 76.2 109.22 0)
+			(at 87.63 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.1999 106.68 90)
+			(at 87.6299 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 102.87 0)
+			(at 87.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 102.87 0)
+			(at 87.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +2094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 102.87 0)
+			(at 87.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

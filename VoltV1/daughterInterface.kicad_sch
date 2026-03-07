@@ -1046,6 +1046,17 @@
 		)
 		(uuid "2bbdbbd0-0b96-4a1a-925b-abdf4bb0954f")
 	)
+	(hierarchical_label "Daughter 5V"
+		(shape input)
+		(at 158.75 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3530e37f-b9c0-4ac5-81e6-e5c57c1a9d40")
+	)
 	(hierarchical_label "~S3.2"
 		(shape input)
 		(at 158.75 87.63 0)
@@ -1123,6 +1134,17 @@
 		)
 		(uuid "55067243-8ec9-48a8-a9c5-d073731d5b30")
 	)
+	(hierarchical_label "Daughter 5V"
+		(shape input)
+		(at 158.75 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58644950-66da-420b-8175-6615bdaa742d")
+	)
 	(hierarchical_label "DaughterPWM{slash}Analogue3"
 		(shape input)
 		(at 133.35 100.33 180)
@@ -1133,6 +1155,17 @@
 			(justify right)
 		)
 		(uuid "5b5b80ef-42e9-4818-80d8-055e7cf1b084")
+	)
+	(hierarchical_label "Daughter Battery"
+		(shape input)
+		(at 133.35 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "622d7ab3-bfa1-4b33-afec-10d653cf89ae")
 	)
 	(hierarchical_label "~S4.3"
 		(shape input)
@@ -1266,6 +1299,17 @@
 		)
 		(uuid "c442da43-2097-45ed-a044-eac010a1f31d")
 	)
+	(hierarchical_label "Daughter Battery"
+		(shape input)
+		(at 133.35 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2464a98-6375-4373-85ea-723967c716ee")
+	)
 	(hierarchical_label "DAC0"
 		(shape input)
 		(at 158.75 100.33 0)
@@ -1288,6 +1332,17 @@
 		)
 		(uuid "d428b1ad-6a17-456b-8baa-122447d3d91a")
 	)
+	(hierarchical_label "Daughter Battery"
+		(shape input)
+		(at 133.35 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d60c3c48-9e88-4759-bd76-3eb15ef5dab3")
+	)
 	(hierarchical_label "DaughterPWM{slash}Analogue1"
 		(shape input)
 		(at 133.35 95.25 180)
@@ -1309,6 +1364,17 @@
 			(justify right)
 		)
 		(uuid "d92dbf44-4023-408c-a683-80561b8c6167")
+	)
+	(hierarchical_label "Daughter 3.3V"
+		(shape input)
+		(at 158.75 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea4b1bdf-d701-4d6c-b3ab-3e6271078443")
 	)
 	(hierarchical_label "DaughterPWM4"
 		(shape input)
