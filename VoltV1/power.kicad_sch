@@ -3850,6 +3850,16 @@
 		)
 		(uuid "509a2310-2eb5-4649-a830-80fa9915499d")
 	)
+	(text "Should probably change these\nto be closer to 30V protection"
+		(exclude_from_sim no)
+		(at 77.47 94.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81bdb291-d429-4415-897c-9274fa17f1a3")
+	)
 	(text "Reverse Protection NMOS"
 		(exclude_from_sim no)
 		(at 48.768 25.654 0)
