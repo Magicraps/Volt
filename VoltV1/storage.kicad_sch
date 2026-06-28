@@ -1273,17 +1273,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "FRAM Datasheet"
-		(exclude_from_sim no)
-		(at 190.246 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(href "https://www.ramxeed.com/assets/images/products/datasheet/FeRAM/s4/MB85RS64V-DS6v1-E.pdf")
-		)
-		(uuid "15cbd4d1-f45e-403c-8607-d3c5868bbdd5")
-	)
 	(text "Internal pullup on WP and Reset\n"
 		(exclude_from_sim no)
 		(at 91.694 88.646 0)
@@ -1304,6 +1293,16 @@
 			(href "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7130/001-98284%20Rev%20U.pdf")
 		)
 		(uuid "a79f2947-1b37-4dde-96b1-795021a8ca68")
+	)
+	(text "MB85RS64PNF-G-JNE1\n"
+		(exclude_from_sim no)
+		(at 191.008 84.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af074d4e-0c71-4781-98cc-48fe47a0574f")
 	)
 	(junction
 		(at 207.01 66.04)
@@ -2612,7 +2611,7 @@
 				)
 			)
 		)
-		(property "Value" "MB85RS64V"
+		(property "Value" "MB85RS64"
 			(at 190.5 66.04 0)
 			(effects
 				(font

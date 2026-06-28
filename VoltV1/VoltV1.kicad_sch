@@ -10,7 +10,91 @@
 		(rev "V1")
 		(company "Riley Post")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(text "NULI-Avionics PCBs"
 		(exclude_from_sim no)
 		(at 26.162 28.194 0)
@@ -344,16 +428,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 69.85) (xy 208.28 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bcd8c8d-6cc2-4fef-97ef-dfa7691c7750")
-	)
-	(wire
-		(pts
 			(xy 107.95 97.79) (xy 127 97.79)
 		)
 		(stroke
@@ -441,16 +515,6 @@
 			(type default)
 		)
 		(uuid "7317e54e-6471-4228-9586-0f3936531d33")
-	)
-	(wire
-		(pts
-			(xy 172.72 72.39) (xy 208.28 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "752d1074-2318-4a5b-8211-eda324041f55")
 	)
 	(wire
 		(pts
@@ -584,6 +648,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 34.29) (xy 208.28 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91691861-18d4-4ff5-9668-ff64c5202c0c")
+	)
+	(wire
+		(pts
 			(xy 208.28 80.01) (xy 193.04 80.01)
 		)
 		(stroke
@@ -591,6 +665,16 @@
 			(type default)
 		)
 		(uuid "916b6a75-a7c6-42af-81ea-434363a11fcf")
+	)
+	(wire
+		(pts
+			(xy 172.72 39.37) (xy 208.28 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995ced97-c088-4223-a9d0-fadc33967d93")
 	)
 	(wire
 		(pts
@@ -611,6 +695,16 @@
 			(type default)
 		)
 		(uuid "9fdd89b8-8f34-46f4-a983-8e77a3e48e5c")
+	)
+	(wire
+		(pts
+			(xy 172.72 36.83) (xy 208.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1315c23-b3ae-46e0-9f60-811183a3962d")
 	)
 	(wire
 		(pts
@@ -941,6 +1035,262 @@
 			(type default)
 		)
 		(uuid "fb5a486f-d264-4085-a0f7-062f86810b85")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 73.66 191.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07b1bff5-3c10-4414-9773-53762cf42c05")
+		(property "Reference" "H3"
+			(at 76.2 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 76.2 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M25Fixed:FixedMountingHole_2.5mm_Pad"
+			(at 73.66 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 73.66 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VoltV1"
+				(path "/4dc02877-6404-4472-a9f6-00d826e215ba"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 53.34 191.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69036d68-5bae-4bd4-ac62-559e8ceaef2e")
+		(property "Reference" "H2"
+			(at 55.88 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 55.88 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M25Fixed:FixedMountingHole_2.5mm_Pad"
+			(at 53.34 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 53.34 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VoltV1"
+				(path "/4dc02877-6404-4472-a9f6-00d826e215ba"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 95.25 193.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8137a9dd-ee28-4bac-8327-6c85c845a37b")
+		(property "Reference" "H4"
+			(at 97.79 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 97.79 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M25Fixed:FixedMountingHole_2.5mm_Pad"
+			(at 95.25 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 95.25 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VoltV1"
+				(path "/4dc02877-6404-4472-a9f6-00d826e215ba"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 33.02 191.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4c09fb6-4694-41d4-be6e-538edf200c27")
+		(property "Reference" "H1"
+			(at 35.56 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 35.56 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M25Fixed:FixedMountingHole_2.5mm_Pad"
+			(at 33.02 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 33.02 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "VoltV1"
+				(path "/4dc02877-6404-4472-a9f6-00d826e215ba"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 207.01 124.46)
@@ -1358,6 +1708,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "CurrentDetection" input
+			(at 109.22 25.4 0)
+			(uuid "f3cb0a30-cc73-4d4f-8be6-669d9df63acb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Daughter Batt+" input
+			(at 71.12 41.91 180)
+			(uuid "f0f897d8-9a94-4d4f-84cf-f74f598eecfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2244,6 +2614,36 @@
 				(justify left)
 			)
 		)
+		(pin "RESETN" input
+			(at 208.28 39.37 180)
+			(uuid "206b6bd0-da34-4fd2-b747-1be68d253e7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 208.28 34.29 180)
+			(uuid "23d5a3ac-d6d7-4076-8cd0-d116ec82cf55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 208.28 36.83 180)
+			(uuid "6e2d0b03-6285-4103-930b-87e064d3cb0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "VoltV1"
 				(path "/4dc02877-6404-4472-a9f6-00d826e215ba"
@@ -2731,26 +3131,6 @@
 		(pin "Reset Radio" input
 			(at 208.28 67.31 180)
 			(uuid "a2e92af0-2f37-4a3f-b3c6-70b8ebcc5de8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RxEn Radio" input
-			(at 208.28 69.85 180)
-			(uuid "16c9a77d-1541-4017-9c65-ec364c9e303c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TxEN Radio" input
-			(at 208.28 72.39 180)
-			(uuid "219a6f18-da58-4fb0-a4ce-0efdbd490b3a")
 			(effects
 				(font
 					(size 1.27 1.27)
